@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    display: grid;
+    width: 530px;
+    height: 715px;
+    margin: 0 auto;    
+    text-align: center;
+    background-color: #1F2937;
+}
+
+.main {
+    width: 530px;
+    height: 250px;
+    background-color: #6943FF;
+    color: #fff;
+}
+#heading {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 20px;
+}
+
+input[type="text"] {
+    margin: 0 auto;
+    margin-top: 30px;
+    display: grid;
+    text-align: center;
+    width: 100px;
+    height: 70px;
+    background-color: #6943FF;
+    border: 1px solid #B295FF;
+    border-radius: 5px;
+    color: #fff;
+    font-style: inherit;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+#convert-btn {
+    margin-top: 25px;
+    width: 100px;
+    height: 42px;
+    border: none;
+    border-radius: 5px;
+}
+
+#convert-btn:hover {
+    cursor: pointer
+}
+
+/* Group section starts starts */
+
+/* Same properties */
+.sProp {
+    margin: 0 auto;
+    width: 480px;
+    height: 110px;
+    text-align: center;
+    background-color: #273549;
+    color: #fff
+}
+
+#units {
+    margin-top: 30px;
+    color: #CCC1FF;
+    font-weight: 500;
+}
